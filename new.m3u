@@ -1,37 +1,62 @@
-#EXTM3U url-tvg="http://192.168.1.182:8000/api/xmltv.xml" x-tvg-url="http://192.168.1.182:8000/api/xmltv.xml"
-#EXTINF:-1 tvg-id="C1.49.tunarr.com" channel-id="C1.49.tunarr.com" CUID="C1.49.tunarr.com" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.1.182:8000/images/uploads/50b0661f-5cc3-47ce-b039-3fefce56a2d8_icon.jpeg" group-title="tunarr",Barney Miller
-http://192.168.1.182:8000/stream/channels/030513bb-8c1d-4fb1-90a0-667ccdcce367.ts
-#EXTINF:-1 tvg-id="C2.50.tunarr.com" channel-id="C2.50.tunarr.com" CUID="C2.50.tunarr.com" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.1.182:8000/images/uploads/a0d0e904-9b65-4319-8e35-e40912fc1181_icon.png" group-title="tunarr",Doc Martin
-http://192.168.1.182:8000/stream/channels/779aa48e-cdc5-4a60-b105-017e27630cf6.ts
-#EXTINF:-1 tvg-id="C3.51.tunarr.com" channel-id="C3.51.tunarr.com" CUID="C3.51.tunarr.com" tvg-chno="3" tvg-name="Western Movies" tvg-logo="https://play-lh.googleusercontent.com/uhI-TytBptSsrbn2o7OSKEA0Gznyv-tMeqL2-S-6WpOiIQ961XXIS3nbjPDZWomV9CM" group-title="tunarr",Western Movies
-http://192.168.1.182:8000/stream/channels/99ac9c4e-1b2e-4b0b-8230-8bb9b552b19a.ts
-#EXTINF:-1 tvg-id="HallmarkChannelEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/512px-Hallmark_Channel.svg.png" group-title="Family",Hallmark Channel East
-http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="AMCEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png" group-title="Movies",AMC East (1080p)
-http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="KGWDT1.us" tvg-logo="https://i.imgur.com/K8qkTZ4.png" group-title="General",KGW-DT1 (1080p)
-https://livevideo01.kgw.com/hls/live/2015506/elvs/live.m3u8
-#EXTINF:-1 tvg-id="KTRKDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/512px-ABC-2021-LOGO.svg.png" group-title="News",KTRK TV ABC 13 News (720p)
-https://content.uplynk.com/channel/ext/1efe3bfc4d1e4b5db5e5085a535b510b/ktrk_24x7_news.m3u8
-#EXTINF:-1 tvg-id="HSNWest.us" tvg-logo="https://m.media-amazon.com/images/I/419RyCp4+WL.png" group-title="Shop",HSN West
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
-#EXTINF:-1 tvg-id="KTVODT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/512px-ABC-2021-LOGO.svg.png" group-title="Undefined",KTVO-DT1 (720p)
-https://cvtv.cvalley.net/hls/KTVOABC/KTVOABC.m3u8
-#EXTINF:-1 tvg-id="KINGDT1.us" tvg-logo="https://i.imgur.com/fTRLwhP.png" group-title="General",NBC 5 Seattle WA (KING-DT1) (1080p)
-https://livevideo.tegnadigital.com/king/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/KING/elvs/live.m3u8
-#EXTINF:-1 tvg-id="KPAXDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" group-title="General",CBS 8 Missoula MT (KPAX) (720p)
-https://apollo.production-public.tubi.io/live/ac-kpax.m3u8
-#EXTINF:-1 tvg-id="TVSWesternMovie.us" tvg-logo="https://i.imgur.com/dwr98qb.png" group-title="Classic",TVS Western Movie (270p)
-https://bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png" group-title="Kids",Disney Channel (720p)
-https://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="DisneyXDEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="Kids",Disney XD (720p)
-https://fl5.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="NicktoonsEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nicktoons_Network_logo_2009.svg/512px-Nicktoons_Network_logo_2009.svg.png" group-title="Kids",NickToons (720p)
-http://143.244.60.30/NICKTOONS/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Cowboy Movie Channel (1080p)
-https://streams2.sofast.tv/ptnr-stirr/genre-Entertainment/lang-English/ctgr-Movies/title-COWBOY-MOVIE-CHANNEL-ENG/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8
-#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-logo="https://www.gameshownetwork.com/storage/app/media/2020/Navigation/gsn_logo.jpg" group-title="Entertainment",Game Show Network East (720p) [Not 24/7]
-https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/gsn_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="NickelodeonEast.us" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon East
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="1" tvg-name="CM| Barney Miller FHD" tvg-logo="" group-title="24/7 | Cinemania",CM| Barney Miller FHD
+http://vocotv.pro:8080/JB88nms2K/10638733/625224
+#EXTINF:-1 tvg-id="2" tvg-name="24/7 Doc Martin" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/p50e4vKp57iBr8EgZgu8qkhMlOu.jpg" group-title="24/7 | COMEDY",24/7 Doc Martin
+http://vocotv.pro:8080/JB88nms2K/10638733/102249
+#EXTINF:-1 tvg-id="3" tvg-name="24/7 Frasier" tvg-logo="" group-title="24/7 | CLASSIC SHOWS",24/7 Frasier
+http://vocotv.pro:8080/JB88nms2K/10638733/89387
+#EXTINF:-1 tvg-id="4" tvg-name="24/7 Friends" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f496cm9enuEsZkSPzCwnTESEK5s.jpg" group-title="24/7 | CLASSIC SHOWS",24/7 Friends
+http://vocotv.pro:8080/JB88nms2K/10638733/89386
+#EXTINF:-1 tvg-id="5" tvg-name="24/7 Cheers" tvg-logo="https://i.postimg.cc/NfHR7QJf/TOTO3.png" group-title="24/7 | CLASSIC SHOWS",24/7 Cheers
+http://vocotv.pro:8080/JB88nms2K/10638733/89404
+#EXTINF:-1 tvg-id="6" tvg-name="24/7 Wings" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eqf5p8fU7liYAMznUBMWMeSYfCQ.jpg" group-title="24/7 | COMEDY",24/7 Wings
+http://vocotv.pro:8080/JB88nms2K/10638733/101856
+#EXTINF:-1 tvg-id="fox26kmvumedford.us" tvg-name="OR | Fort Klamath | FOX 26 KMVU" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/51/LOGO_KMPH_FOX26_solid_calls_blu.png" group-title="USA | LOCAL - FOX",OR | Fort Klamath | FOX 26 KMVU
+http://vocotv.pro:8080/JB88nms2K/10638733/287126
+#EXTINF:-1 tvg-id="cbsktvlktvlmedfordor.us" tvg-name="OR | Fort Klamath | CBS KTVL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/KTVL_10_Logo_2023.png/800px-KTVL_10_Logo_2023.png" group-title="USA | LOCAL - CBS",OR | Fort Klamath | CBS KTVL
+http://vocotv.pro:8080/JB88nms2K/10638733/287125
+#EXTINF:-1 tvg-id="abc12kdrvmedford.us" tvg-name="OR | Fort Klamath | ABC KDRV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/KDRV_NewsWatch_12_Logo_2011.png" group-title="USA | LOCAL - ABC",OR | Fort Klamath | ABC KDRV
+http://vocotv.pro:8080/JB88nms2K/10638733/287124
+#EXTINF:-1 tvg-id="kohddt2.us" tvg-name="OR | Bend | ABC KOHD" tvg-logo="https://logo.iptveditor.com/abcwabm.png" group-title="USA | LOCAL - ABC",OR | Bend | ABC KOHD
+http://vocotv.pro:8080/JB88nms2K/10638733/1196
+#EXTINF:-1 tvg-id="abc9kezieugene.us" tvg-name="OR | Eugene | ABC 9 KEZI" tvg-logo="https://logo.iptveditor.com/abcwabm.png" group-title="USA | LOCAL - ABC",OR | Eugene | ABC 9 KEZI
+http://vocotv.pro:8080/JB88nms2K/10638733/1266
+#EXTINF:-1 tvg-id="abcwearpensacola.us" tvg-name="FL | Pensacola | ABC 3 WEAR" tvg-logo="https://logo.iptveditor.com/abcwabm.png" group-title="USA | LOCAL - ABC",FL | Pensacola | ABC 3 WEAR
+http://vocotv.pro:8080/JB88nms2K/10638733/1263
+#EXTINF:-1 tvg-id="abcktxektxesanangelotx.us" tvg-name="TX | San Angelo | ABC 12 KTXE" tvg-logo="https://logo.iptveditor.com/abcwabm.png" group-title="USA | LOCAL - ABC",TX | San Angelo | ABC 12 KTXE
+http://vocotv.pro:8080/JB88nms2K/10638733/1195
+#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="USA Discovery UHD" tvg-logo="https://logo.iptveditor.com/discovery.png" group-title="USA | Ultra HD Exclusive",USA Discovery UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268988
+#EXTINF:-1 tvg-id="disneychannel.us" tvg-name="USA Disney channel UHD" tvg-logo="https://logo.iptveditor.com/disneychannelen.png" group-title="USA | Ultra HD Exclusive",USA Disney channel UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268987
+#EXTINF:-1 tvg-id="disneyjunior.us" tvg-name="USA Disney JR UHD" tvg-logo="https://logo.iptveditor.com/disneyjr.png" group-title="USA | Ultra HD Exclusive",USA Disney JR UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268986
+#EXTINF:-1 tvg-id="disneyxd.us" tvg-name="USA Disney XD UHD" tvg-logo="https://logo.iptveditor.com/disneyxd.png" group-title="USA | Ultra HD Exclusive",USA Disney XD UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268985
+#EXTINF:-1 tvg-id="hsn.us" tvg-name="USA HSN UHD" tvg-logo="https://logo.iptveditor.com/hsn.png" group-title="USA | Ultra HD Exclusive",USA HSN UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268949
+#EXTINF:-1 tvg-id="nickelodeon.us" tvg-name="USA Nickelodeon UHD" tvg-logo="https://logo.iptveditor.com/nickelodeon.png" group-title="USA | Ultra HD Exclusive",USA Nickelodeon UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268916
+#EXTINF:-1 tvg-id="nickjr.us" tvg-name="USA Nick JR UHD" tvg-logo="https://logo.iptveditor.com/nickjr.png" group-title="USA | Ultra HD Exclusive",USA Nick JR UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/268917
+#EXTINF:-1 tvg-id="hgtv.us" tvg-name="USA HGTV East" tvg-logo="https://logo.iptveditor.com/hgtv.png" group-title="USA | ENTERTAINMENT",USA HGTV East
+http://vocotv.pro:8080/JB88nms2K/10638733/436
+#EXTINF:-1 tvg-id="ownwest.us" tvg-name="USA OWN West" tvg-logo="https://epmgaa.media.clients.ellingtoncms.com/img/photos/2013/07/25/OWN_t580.jpg" group-title="USA | ENTERTAINMENT",USA OWN West
+http://vocotv.pro:8080/JB88nms2K/10638733/295794
+#EXTINF:-1 tvg-id="thecowboychannel.us" tvg-name="USA The Cowboy Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1f/The_Cowboy_Channel.png" group-title="USA | ENTERTAINMENT",USA The Cowboy Channel
+http://vocotv.pro:8080/JB88nms2K/10638733/371
+#EXTINF:-1 tvg-id="thefilmdetective.us" tvg-name="USA The Film Detective" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ef/The_Film_Detective_logo.png" group-title="USA | ENTERTAINMENT",USA The Film Detective
+http://vocotv.pro:8080/JB88nms2K/10638733/370
+#EXTINF:-1 tvg-id="theweatherchannel.us" tvg-name="USA The Weather Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/1200px-The_Weather_Channel_logo_2005-present.svg.png" group-title="USA | ENTERTAINMENT",USA The Weather Channel
+http://vocotv.pro:8080/JB88nms2K/10638733/369
+#EXTINF:-1 tvg-id="showtime2west.us" tvg-name="USA Showtime 2 West" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/v2/s58533_h15_ac.png" group-title="USA | Movies",USA Showtime 2 West
+http://vocotv.pro:8080/JB88nms2K/10638733/727
+#EXTINF:-1 tvg-id="starzencoreclassicwest.us" tvg-name="USA Starz Encore Classic West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Starz_Encore_Classic_Logo_2022.svg/2560px-Starz_Encore_Classic_Logo_2022.svg.png" group-title="USA | Movies",USA Starz Encore Classic West
+http://vocotv.pro:8080/JB88nms2K/10638733/295812
+#EXTINF:-1 tvg-id="turnerclassicmovies.us" tvg-name="USA TCM" tvg-logo="https://cdn.mitvstatic.com/channels/cl_tcm_m.png" group-title="USA | Movies",USA TCM
+http://vocotv.pro:8080/JB88nms2K/10638733/753
+#EXTINF:-1 tvg-id="themoviechannelextra.us" tvg-name="USA The Movie Channel Extra" tvg-logo="https://www.dishpromotions.com/wp-content/uploads/TMCXE-logo.png" group-title="USA | Movies",USA The Movie Channel Extra
+http://vocotv.pro:8080/JB88nms2K/10638733/752
+#EXTINF:-1 tvg-id="themoviechannelextrawest.us" tvg-name="USA The Movie Channel Extra West" tvg-logo="https://www.dishpromotions.com/wp-content/uploads/TMCXE-logo.png" group-title="USA | Movies",USA The Movie Channel Extra West
+http://vocotv.pro:8080/JB88nms2K/10638733/744
+#EXTINF:-1 tvg-id="themoviechannel.us" tvg-name="USA The Movie Channel UHD" tvg-logo="https://www.dishpromotions.com/wp-content/uploads/TMCXE-logo.png" group-title="USA | Movies",USA The Movie Channel UHD
+http://vocotv.pro:8080/JB88nms2K/10638733/751
