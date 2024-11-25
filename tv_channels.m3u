@@ -1,34 +1,34 @@
 #EXTM3U
-#EXTINF:-1,⭐⭐⭐ Live TV ⭐⭐⭐
-#EXTINF:-1, NBC Medford, OR KOBIⓧ
+#EXTINF:-1,US: ⭐⭐⭐ Live TV ⭐⭐⭐
+#EXTINF:-1,US: NBC Medford, OR KOBIⓧ
 http://geo-iptv.com:8880/13691061/70074637/777487
-#EXTINF:-1, ABC Portland, OR KATUⓧ
+#EXTINF:-1,US: ABC Portland, OR KATUⓧ
 http://geo-iptv.com:8880/13691061/70074637/777330
-#EXTINF:-1,CBS Eugene, OR KVAL HD
+#EXTINF:-1,US: CBS Eugene, OR KVAL HD
 http://geo-iptv.com:8880/13691061/70074637/777625
-#EXTINF:-1,CBS Portland, OR KOIN HD
+#EXTINF:-1,US: CBS Portland, OR KOIN HD
 http://geo-iptv.com:8880/13691061/70074637/777678
-#EXTINF:-1,FOX Eugene, OR KLSRⓧ
+#EXTINF:-1,US: FOX Eugene, OR KLSRⓧ
 http://geo-iptv.com:8880/13691061/70074637/777759
-#EXTINF:-1,FOX Portland, OR KPTVⓧ
+#EXTINF:-1,US: FOX Portland, OR KPTVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777818
-#EXTINF:-1,NBC Bend, OR KTVZⓧ
+#EXTINF:-1,US: NBC Bend, OR KTVZⓧ
 http://geo-iptv.com:8880/13691061/70074637/777398
-#EXTINF:-1,NBC Eugene, OR KMTRⓧ
+#EXTINF:-1,US: NBC Eugene, OR KMTRⓧ
 http://geo-iptv.com:8880/13691061/70074637/777435
-#EXTINF:-1,NBC Portland, OR KGWⓧ
+#EXTINF:-1,US: NBC Portland, OR KGWⓧ
 http://geo-iptv.com:8880/13691061/70074637/777518
-#EXTINF:-1,ABC Eugene, OR KEZIⓧ
+#EXTINF:-1,US: ABC Eugene, OR KEZIⓧ
 http://geo-iptv.com:8880/13691061/70074637/777256
-#EXTINF:-1,ABC Medford, OR KDRVⓧ
+#EXTINF:-1,US: ABC Medford, OR KDRVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777306
-#EXTINF:-1,HGTV HD
+#EXTINF:-1,US: HGTV HD
 http://geo-iptv.com:8880/13691061/70074637/108858
 #EXTINF:-1,US: HGTV (west) HD
 http://geo-iptv.com:8880/13691061/70074637/134575
 #EXTINF:-1,US: Home & Garden Television HD
 http://geo-iptv.com:8880/13691061/70074637/714364
-#EXTINF:-1,⭐⭐⭐ KIDS ⭐⭐⭐
+#EXTINF:-1,US: ⭐⭐⭐ KIDS ⭐⭐⭐
 http://geo-iptv.com:8880/13691061/70074637/484493
 #EXTINF:-1,US: BABY TV HD
 http://geo-iptv.com:8880/13691061/70074637/461346
@@ -38,7 +38,7 @@ http://geo-iptv.com:8880/13691061/70074637/28860
 http://geo-iptv.com:8880/13691061/70074637/28830
 #EXTINF:-1,US: DIY Network HD
 http://geo-iptv.com:8880/13691061/70074637/79765
-#EXTINF:-1, EN - DISNEY MOVIES
+#EXTINF:-1,US: EN - DISNEY MOVIES
 http://geo-iptv.com:8880/13691061/70074637/817245
 #EXTINF:-1,US: Disney Junior Pacific HD
 http://geo-iptv.com:8880/13691061/70074637/117053
@@ -52,17 +52,17 @@ http://geo-iptv.com:8880/13691061/70074637/134657
 http://geo-iptv.com:8880/13691061/70074637/28816
 #EXTINF:-1,US: Universal KIDS HD
 http://geo-iptv.com:8880/13691061/70074637/28907
-#EXTINF:-1,⭐⭐⭐ Weather ⭐⭐⭐
+#EXTINF:-1,US: ⭐⭐⭐ Weather ⭐⭐⭐
 #EXTINF:-1,US: AccuWeather
 http://geo-iptv.com:8880/13691061/70074637/704994
 #EXTINF:-1,US: THE Weather Channel HD
 http://geo-iptv.com:8880/13691061/70074637/484331
 #EXTINF:-1,US: Animal Planet HD
 http://geo-iptv.com:8880/13691061/70074637/79790
-#EXTINF:-1,⭐⭐⭐ Music ⭐⭐⭐
+#EXTINF:-1,US: ⭐⭐⭐ Music ⭐⭐⭐
 #EXTINF:-1,US: CMT Music
 http://geo-iptv.com:8880/13691061/70074637/714362
-#EXTINF:-1,⭐⭐⭐Outdoors⭐⭐⭐
+#EXTINF:-1,US: ⭐⭐⭐Outdoors⭐⭐⭐
 #EXTINF:-1,US: National Geographic WILD HD
 http://geo-iptv.com:8880/13691061/70074637/79736
 #EXTINF:-1,US: Outdoor Channel HD
@@ -77,56 +77,56 @@ http://geo-iptv.com:8880/13691061/70074637/484338
 http://geo-iptv.com:8880/13691061/70074637/79717
 #EXTINF:-1,US: Travel Channel WEST HD
 http://geo-iptv.com:8880/13691061/70074637/134667
-#EXTINF:-1,⭐⭐⭐ 24/7 Shows ⭐⭐⭐
-#EXTINF:-1, The Munsters FHD
+#EXTINF:-1,US: ⭐⭐⭐ 24/7 Shows ⭐⭐⭐
+#EXTINF:-1,US: The Munsters FHD
 http://geo-iptv.com:8880/13691061/70074637/828339
-#EXTINF:-1, The Nanny FHD
+#EXTINF:-1,US: The Nanny FHD
 http://geo-iptv.com:8880/13691061/70074637/828340
 #EXTINF:-1,US: Viceland HD
 http://geo-iptv.com:8880/13691061/70074637/28909
 #EXTINF:-1,US: World Fishing Network HD
 http://geo-iptv.com:8880/13691061/70074637/134671
-#EXTINF:-1, Dinosaurs FHD
+#EXTINF:-1,US: Dinosaurs FHD
 http://geo-iptv.com:8880/13691061/70074637/828178
 #EXTINF:-1,US: Starz Encore Westerns HD
 http://geo-iptv.com:8880/13691061/70074637/28883
-#EXTINF:-1, Cheers FHD
+#EXTINF:-1,US: Cheers FHD
 http://geo-iptv.com:8880/13691061/70074637/828135
-#EXTINF:-1, Frasier FHD
+#EXTINF:-1,US: Frasier FHD
 http://geo-iptv.com:8880/13691061/70074637/828209
-#EXTINF:-1, Sanford and Son FHD
+#EXTINF:-1,US: Sanford and Son FHD
 http://geo-iptv.com:8880/13691061/70074637/828306
-#EXTINF:-1, Barney Miller FHD
+#EXTINF:-1,US: Barney Miller FHD
 http://geo-iptv.com:8880/13691061/70074637/828092
-#EXTINF:-1, Friends FHD
+#EXTINF:-1,US: Friends FHD
 http://geo-iptv.com:8880/13691061/70074637/828210
-#EXTINF:-1, The Big Bang Theory FHD
+#EXTINF:-1,US: The Big Bang Theory FHD
 http://geo-iptv.com:8880/13691061/70074637/828325
-#EXTINF:-1, Ful House FHD
+#EXTINF:-1,US: Ful House FHD
 http://geo-iptv.com:8880/13691061/70074637/828211
-#EXTINF:-1, Get Smart FHD
+#EXTINF:-1,US: Get Smart FHD
 http://geo-iptv.com:8880/13691061/70074637/828216
-#EXTINF:-1, Gomer Pyle U.S.M.C FHD
+#EXTINF:-1,US: Gomer Pyle U.S.M.C FHD
 http://geo-iptv.com:8880/13691061/70074637/828223
-#EXTINF:-1, Gunsmoke FHD
+#EXTINF:-1,US: Gunsmoke FHD
 http://geo-iptv.com:8880/13691061/70074637/828230
-#EXTINF:-1, Happy Days FHD
+#EXTINF:-1,US: Happy Days FHD
 http://geo-iptv.com:8880/13691061/70074637/828231
-#EXTINF:-1, Hogans Heros FHD
+#EXTINF:-1,US: Hogans Heros FHD
 http://geo-iptv.com:8880/13691061/70074637/828243
-#EXTINF:-1,USA | ABC Medford, OR KDRVⓧ
+#EXTINF:-1,US: USA | ABC Medford, OR KDRVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777306
-#EXTINF:-1, Bewitched FHD
+#EXTINF:-1,US: Bewitched FHD
 http://geo-iptv.com:8880/13691061/70074637/828103
-#EXTINF:-1, Bluey FHD
+#EXTINF:-1,US: Bluey FHD
 http://geo-iptv.com:8880/13691061/70074637/828111
-#EXTINF:-1, Boy Meets World FHD
+#EXTINF:-1,US: Boy Meets World FHD
 http://geo-iptv.com:8880/13691061/70074637/828118
-#EXTINF:-1, How I Met Your Mother FHD
+#EXTINF:-1,US: How I Met Your Mother FHD
 http://geo-iptv.com:8880/13691061/70074637/828246
-#EXTINF:-1, I Dream of Jeannie FHD
+#EXTINF:-1,US: I Dream of Jeannie FHD
 http://geo-iptv.com:8880/13691061/70074637/828247
-#EXTINF:-1, I Love Lucy FHD
+#EXTINF:-1,US: I Love Lucy FHD
 http://geo-iptv.com:8880/13691061/70074637/828248
-#EXTINF:-1, Last Man Standing FHD
+#EXTINF:-1,US: Last Man Standing FHD
 http://geo-iptv.com:8880/13691061/70074637/828265
