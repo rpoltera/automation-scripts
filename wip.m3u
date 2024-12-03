@@ -1,9 +1,15 @@
 #EXTM3U url-tvg="https://iptv.polteradomain.com/iptv/xmltv.xml" x-tvg-url="https://iptv.polteradomain.com/iptv/xmltv.xml"
-#EXTINF:0 tvg-id="1.etv" channel-id="Ovs4DD_Lxk2LpI6KP6Amkg" channel-number="1" CUID="Ovs4DD_Lxk2LpI6KP6Amkg" tvg-chno="1" tvg-name="8 Simple Rules" tvg-logo="https://iptv.polteradomain.com/iptv/logos/91B71FD097C094230D6C088704DCFE15.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", 8 Simple Rules
+#EXTINF:0 tvg-id="1.etv" channel-id="08HYgYoCuE2AyMaF-BAV9w" channel-number="1" CUID="08HYgYoCuE2AyMaF-BAV9w" tvg-chno="1" tvg-name="Doc Martin" tvg-logo="https://iptv.polteradomain.com/iptv/logos/D580CD80A7239C8126FC4AD601EBFBF9.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
 https://iptv.polteradomain.com/iptv/channel/1.ts
-#EXTINF:0 tvg-id="2.etv" channel-id="rLgFFjZI2EC_z91GpiaXtA" channel-number="2" CUID="rLgFFjZI2EC_z91GpiaXtA" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="https://iptv.polteradomain.com/iptv/logos/C9C5A0050431CB75D4EF354A7310BEDE.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
+#EXTINF:0 tvg-id="2.etv" channel-id="Xw-asplWQkqiB_I6wsWpeg" channel-number="2" CUID="Xw-asplWQkqiB_I6wsWpeg" tvg-chno="2" tvg-name="Barnie Miller" tvg-logo="https://iptv.polteradomain.com/iptv/logos/0C8B6840E55D54C315A253A89A526EE1.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barnie Miller
 https://iptv.polteradomain.com/iptv/channel/2.ts
-#EXTINF:0 tvg-id="3.etv" channel-id="EsmSw5PWXkKTQV8JG6YEHA" channel-number="3" CUID="EsmSw5PWXkKTQV8JG6YEHA" tvg-chno="3" tvg-name="Barney Miller" tvg-logo="https://iptv.polteradomain.com/iptv/logos/B344E7E3EBFC8156DA8F80BB91C33300.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
+#EXTINF:0 tvg-id="3.etv" channel-id="nn8quoQ1vUK5HIdcp2Wgog" channel-number="3" CUID="nn8quoQ1vUK5HIdcp2Wgog" tvg-chno="3" tvg-name="Adam-12" tvg-logo="https://iptv.polteradomain.com/iptv/logos/BC850E1BB8F7CF0508A80C5AB59B5FE0.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Adam-12
 https://iptv.polteradomain.com/iptv/channel/3.ts
-#EXTINF:0 tvg-id="4.etv" channel-id="KMM8iZJUr0KdHZP68JmwJQ" channel-number="4" CUID="KMM8iZJUr0KdHZP68JmwJQ" tvg-chno="4" tvg-name="Nick at Night" tvg-logo="https://iptv.polteradomain.com/iptv/logos/BB86F059A3E7ECFA4C3F51ACB57D7176.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Night
+#EXTINF:0 tvg-id="4.etv" channel-id="pc5136Y2qEuZPGsOShrHBg" channel-number="4" CUID="pc5136Y2qEuZPGsOShrHBg" tvg-chno="4" tvg-name="Nick at Night" tvg-logo="https://iptv.polteradomain.com/iptv/logos/60A5FB1345FEA4087F034ED3846413B0.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Night
 https://iptv.polteradomain.com/iptv/channel/4.ts
+#EXTINF:0 tvg-id="5.etv" channel-id="i75xuRfoiUOAdDkTXfXr8w" channel-number="5" CUID="i75xuRfoiUOAdDkTXfXr8w" tvg-chno="5" tvg-name="Frasier" tvg-logo="https://iptv.polteradomain.com/iptv/logos/99BC411D3B8BFB42A2C85F5D11005A3C.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Frasier
+https://iptv.polteradomain.com/iptv/channel/5.ts
+#EXTINF:0 tvg-id="6.etv" channel-id="TNjRbzgBsE6FCdQmm6XbJw" channel-number="6" CUID="TNjRbzgBsE6FCdQmm6XbJw" tvg-chno="6" tvg-name="Friends" tvg-logo="https://iptv.polteradomain.com/iptv/logos/4EB12901B8EAFEA705EC648DA1D990C8.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Friends
+https://iptv.polteradomain.com/iptv/channel/6.ts
+#EXTINF:0 tvg-id="7.etv" channel-id="XtfxBgSSOU2s698tBdHNFQ" channel-number="7" CUID="XtfxBgSSOU2s698tBdHNFQ" tvg-chno="7" tvg-name="Cheers" tvg-logo="https://iptv.polteradomain.com/iptv/logos/D612238B8F902FD183325B03A3669284.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Cheers
+https://iptv.polteradomain.com/iptv/channel/7.ts
