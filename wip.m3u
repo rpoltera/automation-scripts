@@ -1,76 +1,75 @@
-
 #EXTM3U
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Medford, OR KDRVⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Medford, OR KDRVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777306 
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Medford, OR KOBIⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Medford, OR KOBIⓧ
 http://geo-iptv.com:8880/13691061/70074637/777487
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Portland, OR KATUⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Portland, OR KATUⓧ
 http://geo-iptv.com:8880/13691061/70074637/777330
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CBS Eugene, OR KVAL HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CBS Eugene, OR KVAL HD
 http://geo-iptv.com:8880/13691061/70074637/777625
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CBS Portland, OR KOIN HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CBS Portland, OR KOIN HD
 http://geo-iptv.com:8880/13691061/70074637/777678
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", FOX Eugene, OR KLSRⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", FOX Eugene, OR KLSRⓧ
 http://geo-iptv.com:8880/13691061/70074637/777759
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", FOX Portland, OR KPTVⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", FOX Portland, OR KPTVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777818
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Bend, OR KTVZⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Bend, OR KTVZⓧ
 http://geo-iptv.com:8880/13691061/70074637/777398
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Eugene, OR KMTRⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Eugene, OR KMTRⓧ
 http://geo-iptv.com:8880/13691061/70074637/777435
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Portland, OR KGWⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC Portland, OR KGWⓧ
 http://geo-iptv.com:8880/13691061/70074637/777518
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Eugene, OR KEZIⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Eugene, OR KEZIⓧ
 http://geo-iptv.com:8880/13691061/70074637/777256
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Medford, OR KDRVⓧ
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC Medford, OR KDRVⓧ
 http://geo-iptv.com:8880/13691061/70074637/777306
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV HD
 http://geo-iptv.com:8880/13691061/70074637/108858
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV (west) HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV (west) HD
 http://geo-iptv.com:8880/13691061/70074637/134575
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Home & Garden Television HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Home & Garden Television HD
 http://geo-iptv.com:8880/13691061/70074637/714364
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Boomerang HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Boomerang HD
 http://geo-iptv.com:8880/13691061/70074637/28860
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Cartoon Network HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Cartoon Network HD
 http://geo-iptv.com:8880/13691061/70074637/28830
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", DISNEY MOVIES
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", DISNEY MOVIES
 http://geo-iptv.com:8880/13691061/70074637/817245
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney Junior Pacific HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney Junior Pacific HD
 http://geo-iptv.com:8880/13691061/70074637/117053
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nickelodeon EAST HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nickelodeon EAST HD
 http://geo-iptv.com:8880/13691061/70074637/461345
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nicktoons HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nicktoons HD
 http://geo-iptv.com:8880/13691061/70074637/28817
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", TEEN NICK HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", TEEN NICK HD
 http://geo-iptv.com:8880/13691061/70074637/134657
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Teennick HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Teennick HD
 http://geo-iptv.com:8880/13691061/70074637/28816
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Universal KIDS HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Universal KIDS HD
 http://geo-iptv.com:8880/13691061/70074637/28907
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CMT Music
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CMT Music
 http://geo-iptv.com:8880/13691061/70074637/714362
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", National Geographic WILD HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", National Geographic WILD HD
 http://geo-iptv.com:8880/13691061/70074637/79736
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Outdoor Channel HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Outdoor Channel HD
 http://geo-iptv.com:8880/13691061/70074637/117326
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Outdoor ᴴᴰ HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Outdoor ᴴᴰ HD
 http://geo-iptv.com:8880/13691061/70074637/134723
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Pursuit HD
+#EXTINF:-1, group-title="24/7" tvg-logo="" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Pursuit HD
 http://geo-iptv.com:8880/13691061/70074637/134640
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", THE Blaze HD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN1x4pOaSPnPFza2L5KB_yD-t6dwUZUSr5Zw&s" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", THE Blaze HD
 http://geo-iptv.com:8880/13691061/70074637/484338
-#EXTINF:-1, group-title="24/7" tvg-logo="https://i.imgur.com/GadfTwF.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Travel Channel HD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://e7.pngegg.com/pngimages/966/281/png-clipart-travel-channel-international-television-channel-high-definition-television-summer-travel-logo-miscellaneous-television.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Travel Channel HD
 http://geo-iptv.com:8880/13691061/70074637/79717
-#EXTINF:-1, group-title="24/7" tvg-logo="https://i.imgur.com/GadfTwF.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Travel Channel WEST HD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://e7.pngegg.com/pngimages/966/281/png-clipart-travel-channel-international-television-channel-high-definition-television-summer-travel-logo-miscellaneous-television.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Travel Channel WEST HD
 http://geo-iptv.com:8880/13691061/70074637/134667
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Viceland HD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ125Fdu-1CUMALlNpfe6osnRQ1TGrKVTTz2zm7heEEvo3iGY4ZqJfGESDrtHZ-SluXW6o&usqp=CAU" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Viceland HD
 http://geo-iptv.com:8880/13691061/70074637/28909
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", World Fishing Network HD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://e7.pngegg.com/pngimages/76/459/png-clipart-world-fishing-network-television-angling-logo-fishing-brand-television-text.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac",  World Fishing Network HD
 http://geo-iptv.com:8880/13691061/70074637/134671
-#EXTINF:-1, group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosaurs FHD
+#EXTINF:-1, group-title="24/7" tvg-logo="https://e7.pngegg.com/pngimages/43/734/png-clipart-dinosaurs-dinosaurs-television-show-dinosaur-television-food.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosaurs FHD
 http://geo-iptv.com:8880/13691061/70074637/828178
-#EXTINF:-1, channel-id="tarz Encore Westerns" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4b/Westerns.svg/revision/latest?cb=20231203183029" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Starz Encore Westerns
+#EXTINF:-1, group-title="24/7" tvg-logo="https://i.imgur.com/GadfTwF.png" tvc-stream-vcodec="h264" tvc-stream-acodec="aac" Starz Encore Westerns
 #EXTM3U url-tvg="https://iptv.polteradomain.com/iptv/xmltv.xml" x-tvg-url="https://iptv.polteradomain.com/iptv/xmltv.xml"
 #EXTINF:0 tvg-id="1.etv" channel-id="08HYgYoCuE2AyMaF-BAV9w" CUID="08HYgYoCuE2AyMaF-BAV9w" tvg-logo="https://iptv.polteradomain.com/iptv/logos/D580CD80A7239C8126FC4AD601EBFBF9.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
 https://iptv.polteradomain.com/iptv/channel/1.ts
