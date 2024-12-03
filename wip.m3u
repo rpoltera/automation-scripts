@@ -1,3 +1,5 @@
-#EXTM3U url-tvg="http://iptv.polteradomain.com/iptv/xmltv.xml" x-tvg-url="http://iptv.polteradomain.com/iptv/xmltv.xml"
-#EXTINF:0 tvg-id="1.etv" channel-id="Ovs4DD_Lxk2LpI6KP6Amkg" channel-number="1" CUID="Ovs4DD_Lxk2LpI6KP6Amkg" tvg-chno="1" tvg-name="8 Simple Rules" tvg-logo="http://iptv.polteradomain.com/iptv/logos/91B71FD097C094230D6C088704DCFE15.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", 8 Simple Rules
-http://iptv.polteradomain.com/iptv/channel/1.ts
+#EXTM3U url-tvg="https://iptv.polteradomain.com/iptv/xmltv.xml" x-tvg-url="https://iptv.polteradomain.com/iptv/xmltv.xml"
+#EXTINF:0 tvg-id="1.etv" channel-id="Ovs4DD_Lxk2LpI6KP6Amkg" channel-number="1" CUID="Ovs4DD_Lxk2LpI6KP6Amkg" tvg-chno="1" tvg-name="8 Simple Rules" tvg-logo="https://iptv.polteradomain.com/iptv/logos/91B71FD097C094230D6C088704DCFE15.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", 8 Simple Rules
+https://iptv.polteradomain.com/iptv/channel/1.ts
+#EXTINF:0 tvg-id="2.etv" channel-id="rLgFFjZI2EC_z91GpiaXtA" channel-number="2" CUID="rLgFFjZI2EC_z91GpiaXtA" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="https://iptv.polteradomain.com/iptv/logos/C9C5A0050431CB75D4EF354A7310BEDE.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
+https://iptv.polteradomain.com/iptv/channel/2.ts
