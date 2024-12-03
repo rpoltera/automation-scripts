@@ -5,5 +5,5 @@ https://iptv.polteradomain.com/iptv/channel/1.ts
 https://iptv.polteradomain.com/iptv/channel/2.ts
 #EXTINF:0 tvg-id="3.etv" channel-id="EsmSw5PWXkKTQV8JG6YEHA" channel-number="3" CUID="EsmSw5PWXkKTQV8JG6YEHA" tvg-chno="3" tvg-name="Barney Miller" tvg-logo="https://iptv.polteradomain.com/iptv/logos/B344E7E3EBFC8156DA8F80BB91C33300.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
 https://iptv.polteradomain.com/iptv/channel/3.ts
-#EXTINF:0 tvg-id="4.etv" channel-id="KMM8iZJUr0KdHZP68JmwJQ" channel-number="4" CUID="KMM8iZJUr0KdHZP68JmwJQ" tvg-chno="4" tvg-name="Nick at Night" tvg-logo="https://iptv.polteradomain.com/iptv/logos/BB86F059A3E7ECFA4C3F51ACB57D7176.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Night
+#EXTINF:0 tvg-id="4.etv" channel-id="KMM8iZJUr0KdHZP68JmwJQ" channel-number="4" CUID="KMM8iZJUr0KdHZP68JmwJQ" tvg-chno="4" tvg-name="Nick at Night" tvg-logo="https://iptv.polteradomain.com/iptv/logos/BB86F059A3E7ECFA4C3F51ACB57D7176.jpg" group-title="24/7" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Night
 https://iptv.polteradomain.com/iptv/channel/4.ts
