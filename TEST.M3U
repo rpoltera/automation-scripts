@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1, abc 
 rtsp://192.168.0.161:554/live
+#EXTINF:-1, fox
+rtsp://192.168.0.215:554/live
