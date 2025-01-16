@@ -100,36 +100,3 @@ http://geo-iptv.com:8880/13691061/70074637/828103
 http://geo-iptv.com:8880/13691061/70074637/828111
 #EXTINF:-1, Boy Meets World FHD
 http://geo-iptv.com:8880/13691061/70074637/828118
-#EXTM3U url-tvg="http://192.168.0.133:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.133:8409/iptv/xmltv.xml"
-#EXTINF:0 tvg-id="01.etv" channel-id="MgNRIiS8pUC3FzrOHBLwxw" channel-number="01" CUID="MgNRIiS8pUC3FzrOHBLwxw" tvg-chno="01" tvg-name="Barny Miller" tvg-logo="http://192.168.0.133:8409/iptv/logos/0C8B6840E55D54C315A253A89A526EE1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barny Miller
-http://192.168.0.133:8409/iptv/channel/01.ts
-#EXTINF:0 tvg-id="02.etv" channel-id="FTGqLTgpsEaroFjgb-7Ttg" channel-number="02" CUID="FTGqLTgpsEaroFjgb-7Ttg" tvg-chno="02" tvg-name="Friends" tvg-logo="http://192.168.0.133:8409/iptv/logos/4EB12901B8EAFEA705EC648DA1D990C8.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Friends
-http://192.168.0.133:8409/iptv/channel/02.ts
-#EXTINF:0 tvg-id="03.etv" channel-id="XOP-n0iU00qyuviQbHHHew" channel-number="03" CUID="XOP-n0iU00qyuviQbHHHew" tvg-chno="03" tvg-name="Doc Martin" tvg-logo="http://192.168.0.133:8409/iptv/logos/D580CD80A7239C8126FC4AD601EBFBF9.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
-http://192.168.0.133:8409/iptv/channel/03.ts
-#EXTINF:0 tvg-id="04.etv" channel-id="1OXWDdVIdkWz-FzsHV2rLA" channel-number="04" CUID="1OXWDdVIdkWz-FzsHV2rLA" tvg-chno="04" tvg-name="Disney+" tvg-logo="http://192.168.0.133:8409/iptv/logos/C33AAFF3F82FCC5015806ED00E041049.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney+
-http://192.168.0.133:8409/iptv/channel/04.ts
-#EXTINF:0 tvg-id="06.etv" channel-id="Ip_Jd3i7BEqpxM34v2y8Ew" channel-number="06" CUID="Ip_Jd3i7BEqpxM34v2y8Ew" tvg-chno="06" tvg-name="Adam-12" tvg-logo="http://192.168.0.133:8409/iptv/logos/BC850E1BB8F7CF0508A80C5AB59B5FE0.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Adam-12
-http://192.168.0.133:8409/iptv/channel/06.ts
-#EXTINF:0 tvg-id="7.etv" channel-id="NPMtx7fKsEyBmWDx_RrHxQ" channel-number="7" CUID="NPMtx7fKsEyBmWDx_RrHxQ" tvg-chno="7" tvg-name="Home Repair" tvg-logo="http://192.168.0.133:8409/iptv/logos/gen?text=Home+Repair" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Home Repair
-http://192.168.0.133:8409/iptv/channel/7.ts
-#EXTINF:0 tvg-id="10.etv" channel-id="PzXKhMJleUK7iHdqyPBxvQ" channel-number="10" CUID="PzXKhMJleUK7iHdqyPBxvQ" tvg-chno="10" tvg-name="CBS" tvg-logo="http://192.168.0.133:8409/iptv/logos/420C9ECA893A07516FFB08937F8262D6.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", CBS
-http://192.168.0.133:8409/iptv/channel/10.ts
-#EXTINF:0 tvg-id="12.etv" channel-id="0e2i0pAeDEa3QecJvZwAwg" channel-number="12" CUID="0e2i0pAeDEa3QecJvZwAwg" tvg-chno="12" tvg-name="ABC" tvg-logo="http://192.168.0.133:8409/iptv/logos/91FCD0A4D79BA95C455D9748B8DE6230.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", ABC
-http://192.168.0.133:8409/iptv/channel/12.ts
-#EXTINF:0 tvg-id="13.etv" channel-id="lvNcya_010Gmvk89vs6Zlg" channel-number="13" CUID="lvNcya_010Gmvk89vs6Zlg" tvg-chno="13" tvg-name="Fox" tvg-logo="http://192.168.0.133:8409/iptv/logos/0119F00434BA5EE7F1FF95DA23C05A67.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Fox
-http://192.168.0.133:8409/iptv/channel/13.ts
-#EXTINF:0 tvg-id="19.etv" channel-id="clwXtdxh3ECslBVGHBeB_g" channel-number="19" CUID="clwXtdxh3ECslBVGHBeB_g" tvg-chno="19" tvg-name="Weather Channel" tvg-logo="http://192.168.0.133:8409/iptv/logos/5FC7AF5F531EFBCA172CF5A1CF2327C4.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Weather Channel
-http://192.168.0.133:8409/iptv/channel/19.ts
-#EXTINF:0 tvg-id="21.etv" channel-id="xx5pkzFTbUedJ23nrAZyGw" channel-number="21" CUID="xx5pkzFTbUedJ23nrAZyGw" tvg-chno="21" tvg-name="Nikphd" tvg-logo="http://192.168.0.133:8409/iptv/logos/9395642C00A9D0B48F8C46D2D70C3D5B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nikphd
-http://192.168.0.133:8409/iptv/channel/21.ts
-#EXTINF:0 tvg-id="27.etv" channel-id="YpaqC9IU7U-K4a-5qmmMUg" channel-number="27" CUID="YpaqC9IU7U-K4a-5qmmMUg" tvg-chno="27" tvg-name="Parphd" tvg-logo="http://192.168.0.133:8409/iptv/logos/42D66D0A543829C46BD97F753DB0A840.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Parphd
-http://192.168.0.133:8409/iptv/channel/27.ts
-#EXTINF:0 tvg-id="31.etv" channel-id="F0w3-KsVLUKgCb3mVZ4CJg" channel-number="31" CUID="F0w3-KsVLUKgCb3mVZ4CJg" tvg-chno="31" tvg-name="Disney" tvg-logo="http://192.168.0.133:8409/iptv/logos/C994B07A78D9B8D8DFDD978080F0CBA9.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney
-http://192.168.0.133:8409/iptv/channel/31.ts
-#EXTINF:0 tvg-id="190.etv" channel-id="nO6ST7G6SEOLb3V_bUkz5w" channel-number="190" CUID="nO6ST7G6SEOLb3V_bUkz5w" tvg-chno="190" tvg-name="MeTV" tvg-logo="http://192.168.0.133:8409/iptv/logos/C4495F516486522626800A39BE4760C1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", MeTV
-http://192.168.0.133:8409/iptv/channel/190.ts
-#EXTINF:0 tvg-id="271.etv" channel-id="8c2Uki4PbEaeCaRInM6atA" channel-number="271" CUID="8c2Uki4PbEaeCaRInM6atA" tvg-chno="271" tvg-name="Cartoon Network" tvg-logo="http://192.168.0.133:8409/iptv/logos/DAC62ED72BB7D3EF9894AAD0657AA0E5.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Cartoon Network
-http://192.168.0.133:8409/iptv/channel/271.ts
-#EXTINF:0 tvg-id="732.etv" channel-id="Y3RpkBuY_UCyIZOJrW_tSQ" channel-number="732" CUID="Y3RpkBuY_UCyIZOJrW_tSQ" tvg-chno="732" tvg-name="TV Land" tvg-logo="http://192.168.0.133:8409/iptv/logos/6D46E374FF58F6C2966784F9F9E18845.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", TV Land
-http://192.168.0.133:8409/iptv/channel/732.ts
