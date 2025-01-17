@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1, abc #
-#rtsp://192.168.0.161:554/live
-#EXTINF:-1, fox
-#rtsp://192.168.0.215:554/live
 #EXTINF:-1 channel-id="6090" tvg-id="6090" tvg-chno="6090" tvg-logo="https://tmsimg.fancybits.co/assets/s66268_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="66268" tvg-name="HALLHD" group-title="HD",HALLMARK
 http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6090/stream.mpg?format=ts&codec=copy
 #EXTINF:-1 channel-id="6044" tvg-id="6044" tvg-chno="6044" tvg-logo="https://tmsimg.fancybits.co/assets/s14771_ll_h15_af.png?w=360&h=270" tvc-guide-stationid="14771" tvg-name="HISTORY" group-title="HD",HISTORY
