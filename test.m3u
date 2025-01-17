@@ -10,13 +10,13 @@ http://192.168.0.75:8409/iptv/channel/3.ts
 http://192.168.0.75:8409/iptv/channel/4.ts
 #EXTINF:0 tvg-id="C5.149.ersatztv.org" channel-id="pAEsWzE01EOdPwJIxispZg" channel-number="5" CUID="pAEsWzE01EOdPwJIxispZg" tvg-chno="5" tvg-name="Frasier" tvg-logo="http://192.168.0.75:8409/iptv/logos/7792F51F223188BD88DFCC2FEBD8027E.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Frasier
 http://192.168.0.75:8409/iptv/channel/5.ts
-#EXTINF:0 tvg-id="C6.150.ersatztv.org" channel-id="8NIzruEeuEm1Zp5DRgnd4g" channel-number="6" CUID="8NIzruEeuEm1Zp5DRgnd4g" tvg-chno="6" tvg-name="HGTV" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=HGTV" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV
+#EXTINF:0 tvg-id="C6.150.ersatztv.org" channel-id="8NIzruEeuEm1Zp5DRgnd4g" channel-number="6" CUID="8NIzruEeuEm1Zp5DRgnd4g" tvg-chno="6" tvg-name="HGTV" tvg-logo="http://192.168.0.75:8409/iptv/logos/DED0BE6AAFE9E892184D6C4BE4CCC134.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV
 http://192.168.0.75:8409/iptv/channel/6.ts
-#EXTINF:0 tvg-id="C7.151.ersatztv.org" channel-id="eNDq3F3QzkiwXShRaIkL5Q" channel-number="7" CUID="eNDq3F3QzkiwXShRaIkL5Q" tvg-chno="7" tvg-name="Nick at Nite" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Nick+at+Nite" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Nite
+#EXTINF:0 tvg-id="C7.151.ersatztv.org" channel-id="eNDq3F3QzkiwXShRaIkL5Q" channel-number="7" CUID="eNDq3F3QzkiwXShRaIkL5Q" tvg-chno="7" tvg-name="Nick at Nite" tvg-logo="http://192.168.0.75:8409/iptv/logos/8BFD76D2F448D03DD4A6174E48A7CE5F.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Nite
 http://192.168.0.75:8409/iptv/channel/7.ts
-#EXTINF:0 tvg-id="C8.152.ersatztv.org" channel-id="PHve-9K1XkSLb0_bOlKa7g" channel-number="8" CUID="PHve-9K1XkSLb0_bOlKa7g" tvg-chno="8" tvg-name="Disney" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Disney" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney
+#EXTINF:0 tvg-id="C8.152.ersatztv.org" channel-id="PHve-9K1XkSLb0_bOlKa7g" channel-number="8" CUID="PHve-9K1XkSLb0_bOlKa7g" tvg-chno="8" tvg-name="Disney" tvg-logo="http://192.168.0.75:8409/iptv/logos/44DD52C5FE8F4ED6BAC127911D41C22B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney
 http://192.168.0.75:8409/iptv/channel/8.ts
-#EXTINF:0 tvg-id="C9.153.ersatztv.org" channel-id="xxRp5QNKjkOiKM2mG7P9Mw" channel-number="9" CUID="xxRp5QNKjkOiKM2mG7P9Mw" tvg-chno="9" tvg-name="Dinosurs" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Dinosurs" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosurs
+#EXTINF:0 tvg-id="C9.153.ersatztv.org" channel-id="xxRp5QNKjkOiKM2mG7P9Mw" channel-number="9" CUID="xxRp5QNKjkOiKM2mG7P9Mw" tvg-chno="9" tvg-name="Dinosurs" tvg-logo="http://192.168.0.75:8409/iptv/logos/AD8AC3DD762DB63787F7099F842CF2A1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosurs
 http://192.168.0.75:8409/iptv/channel/9.ts
 #EXTINF:-1 channel-id="6090" tvg-id="6090" tvg-chno="6090" tvg-logo="https://tmsimg.fancybits.co/assets/s66268_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="66268" tvg-name="HALLHD" group-title="HD",HALLMARK
 http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6090/stream.mpg?format=ts&codec=copy
