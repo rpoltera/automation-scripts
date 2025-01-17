@@ -3,3 +3,37 @@
 rtsp://192.168.0.161:554/live
 #EXTINF:-1, fox
 rtsp://192.168.0.215:554/live
+#EXTINF:-1 channel-id="6090" tvg-id="6090" tvg-chno="6090" tvg-logo="https://tmsimg.fancybits.co/assets/s66268_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="66268" tvg-name="HALLHD" group-title="HD",HALLMARK
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6090/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6044" tvg-id="6044" tvg-chno="6044" tvg-logo="https://tmsimg.fancybits.co/assets/s14771_ll_h15_af.png?w=360&h=270" tvc-guide-stationid="14771" tvg-name="HISTORY" group-title="HD",HISTORY
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6044/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6035" tvg-id="6035" tvg-chno="6035" tvg-logo="https://tmsimg.fancybits.co/assets/s42642_ll_h15_ac.png?w=360&h=270" tvc-guide-stationid="42642" tvg-name="TNTHD" group-title="HD",TNT
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6035/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6104" tvg-id="6104" tvg-chno="6104" tvg-logo="https://tmsimg.fancybits.co/assets/s49788_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="49788" tvg-name="HGTVD" group-title="HD",HGTV
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6104/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6091" tvg-id="6091" tvg-chno="6091" tvg-logo="https://tmsimg.fancybits.co/assets/s46710_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="46710" tvg-name="HMYSHD" group-title="HD",HALLMARKMM
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6091/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6120" tvg-id="6120" tvg-chno="6120" tvg-logo="https://tmsimg.fancybits.co/assets/s59684_ll_h15_ad.png?w=360&h=270" tvc-guide-stationid="59684" tvg-name="DISNHD" group-title="HD",DISNEY
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6120/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6121" tvg-id="6121" tvg-chno="6121" tvg-logo="https://tmsimg.fancybits.co/assets/s59684_ll_h15_ad.png?w=360&h=270" tvc-guide-stationid="63320" tvg-name="DISNHDP" group-title="HD",DISNEYP
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6121/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6105" tvg-id="6105" tvg-chno="6105" tvg-logo="https://tmsimg.fancybits.co/assets/s57391_ll_h15_ad.png?w=360&h=270" tvc-guide-stationid="57391" tvg-name="TLCHD" group-title="HD",TLC
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6105/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6725" tvg-id="6725" tvg-chno="6725" tvg-logo="https://tmsimg.fancybits.co/assets/s121307_ll_h15_aa.png?w=360&h=270" tvc-guide-stationid="121307" tvg-name="FWX" group-title="HD",FXW
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6725/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6750" tvg-id="6750" tvg-chno="6750" tvg-logo="https://tmsimg.fancybits.co/assets/s93430_h3_aa.png?w=360&h=270" tvc-guide-stationid="73163" tvg-name="WYBNLD" group-title="HD",BUZZR
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6750/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6784" tvg-id="6784" tvg-chno="6784" tvg-logo="https://tmsimg.fancybits.co/assets/s126864_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="126864" tvg-name="LXHSTR" group-title="HD",LX
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6784/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6791" tvg-id="6791" tvg-chno="6791" tvg-logo="https://tmsimg.fancybits.co/assets/s147367_ll_h15_aa.png?w=360&h=270" tvc-guide-stationid="105440" tvg-name="WCWNDT4" group-title="HD",THENEST
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6791/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6903" tvg-id="6903" tvg-chno="6903" tvg-logo="https://tmsimg.fancybits.co/assets/s120551_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="120551" tvg-name="ACUWNW" group-title="HD",ACCUWEATHER
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6903/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6951" tvg-id="6951" tvg-chno="6951" tvg-logo="https://tmsimg.fancybits.co/assets/s62077_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="62077" tvg-name="HSNHD" group-title="HD",HSN
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6951/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6970" tvg-id="6970" tvg-chno="6970" tvg-logo="https://tmsimg.fancybits.co/assets/s123125_ll_h9_aa.png?w=360&h=270" tvc-guide-stationid="123125" tvg-name="CBSNWNY" group-title="HD",NY-CBSNEWS
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6970/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6985" tvg-id="6985" tvg-chno="6985" tvg-logo="https://tmsimg.fancybits.co/assets/s10003_ll_h15_ac.png?w=360&h=270" tvc-guide-stationid="131577" tvg-name="ABCLAST" group-title="HD",LA-ABCNEWS
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6985/stream.mpg?format=ts&codec=copy
+#EXTINF:-1 channel-id="6986" tvg-id="6986" tvg-chno="6986" tvg-logo="https://tmsimg.fancybits.co/assets/s10003_ll_h15_ac.png?w=360&h=270" tvc-guide-stationid="131578" tvg-name="ABCBAST" group-title="HD",SF-ABCNEWS
+http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6986/stream.mpg?format=ts&codec=copy
