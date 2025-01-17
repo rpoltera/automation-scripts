@@ -1,10 +1,23 @@
 #EXTM3U
-#EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Barney+Miller" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
+#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
+#EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/90B85ADD21DF92A907D468345390A6CB.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
 http://192.168.0.75:8409/iptv/channel/1.ts
-#EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="2" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Doc+Martin" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
+#EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="2" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/206633D4941296E18845E1B417E51C0B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
 http://192.168.0.75:8409/iptv/channel/2.ts
+#EXTINF:0 tvg-id="C3.147.ersatztv.org" channel-id="JH_bpnhXJkytOEi4Xg3TRA" channel-number="3" CUID="JH_bpnhXJkytOEi4Xg3TRA" tvg-chno="3" tvg-name="Friends" tvg-logo="http://192.168.0.75:8409/iptv/logos/23E380F598B5C19A55F4B4E72C87F1D8.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Friends
+http://192.168.0.75:8409/iptv/channel/3.ts
+#EXTINF:0 tvg-id="C4.148.ersatztv.org" channel-id="nY2caQfVmU2V9Fe1Vdkwlg" channel-number="4" CUID="nY2caQfVmU2V9Fe1Vdkwlg" tvg-chno="4" tvg-name="Adam-12" tvg-logo="http://192.168.0.75:8409/iptv/logos/D27745C7C5E8A5955278802D15401C0A.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Adam-12
+http://192.168.0.75:8409/iptv/channel/4.ts
+#EXTINF:0 tvg-id="C5.149.ersatztv.org" channel-id="pAEsWzE01EOdPwJIxispZg" channel-number="5" CUID="pAEsWzE01EOdPwJIxispZg" tvg-chno="5" tvg-name="Frasier" tvg-logo="http://192.168.0.75:8409/iptv/logos/7792F51F223188BD88DFCC2FEBD8027E.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Frasier
+http://192.168.0.75:8409/iptv/channel/5.ts
 #EXTINF:0 tvg-id="C6.150.ersatztv.org" channel-id="8NIzruEeuEm1Zp5DRgnd4g" channel-number="6" CUID="8NIzruEeuEm1Zp5DRgnd4g" tvg-chno="6" tvg-name="HGTV" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=HGTV" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV
 http://192.168.0.75:8409/iptv/channel/6.ts
+#EXTINF:0 tvg-id="C7.151.ersatztv.org" channel-id="eNDq3F3QzkiwXShRaIkL5Q" channel-number="7" CUID="eNDq3F3QzkiwXShRaIkL5Q" tvg-chno="7" tvg-name="Nick at Nite" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Nick+at+Nite" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Nite
+http://192.168.0.75:8409/iptv/channel/7.ts
+#EXTINF:0 tvg-id="C8.152.ersatztv.org" channel-id="PHve-9K1XkSLb0_bOlKa7g" channel-number="8" CUID="PHve-9K1XkSLb0_bOlKa7g" tvg-chno="8" tvg-name="Disney" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Disney" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney
+http://192.168.0.75:8409/iptv/channel/8.ts
+#EXTINF:0 tvg-id="C9.153.ersatztv.org" channel-id="xxRp5QNKjkOiKM2mG7P9Mw" channel-number="9" CUID="xxRp5QNKjkOiKM2mG7P9Mw" tvg-chno="9" tvg-name="Dinosurs" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Dinosurs" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosurs
+http://192.168.0.75:8409/iptv/channel/9.ts
 #EXTINF:-1 channel-id="6090" tvg-id="6090" tvg-chno="6090" tvg-logo="https://tmsimg.fancybits.co/assets/s66268_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="66268" tvg-name="HALLHD" group-title="HD",HALLMARK
 http://192.168.0.122:8089/devices/TVE-Spectrum/channels/6090/stream.mpg?format=ts&codec=copy
 #EXTINF:-1 channel-id="6044" tvg-id="6044" tvg-chno="6044" tvg-logo="https://tmsimg.fancybits.co/assets/s14771_ll_h15_af.png?w=360&h=270" tvc-guide-stationid="14771" tvg-name="HISTORY" group-title="HD",HISTORY
