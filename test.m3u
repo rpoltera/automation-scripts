@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Barney+Miller" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
+http://192.168.0.75:8409/iptv/channel/1.ts
+#EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="2" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=Doc+Martin" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
+http://192.168.0.75:8409/iptv/channel/2.ts
 #EXTINF:0 tvg-id="C6.150.ersatztv.org" channel-id="8NIzruEeuEm1Zp5DRgnd4g" channel-number="6" CUID="8NIzruEeuEm1Zp5DRgnd4g" tvg-chno="6" tvg-name="HGTV" tvg-logo="http://192.168.0.75:8409/iptv/logos/gen?text=HGTV" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV
 http://192.168.0.75:8409/iptv/channel/6.ts
 #EXTINF:-1 channel-id="6090" tvg-id="6090" tvg-chno="6090" tvg-logo="https://tmsimg.fancybits.co/assets/s66268_ll_h15_ab.png?w=360&h=270" tvc-guide-stationid="66268" tvg-name="HALLHD" group-title="HD",HALLMARK
