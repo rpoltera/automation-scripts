@@ -1,8 +1,6 @@
 #EXTM3U
-#EXTINF:-1,USA | ABC Medford, OR KDRVⓧ
-rtsp://192.168.0.120:554/live/1_0
-#EXTINF:-1,USA | Barney Miller 24/7
-#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
+#EXTINF:-1,USA | ABC Klamath falls, OR KDRVⓧ
+rtsp://192.168.0.120:554/live/1_0#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
 #EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/90B85ADD21DF92A907D468345390A6CB.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
 http://192.168.0.75:8409/iptv/channel/1.ts
 #EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="2" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/206633D4941296E18845E1B417E51C0B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
