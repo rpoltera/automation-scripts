@@ -1,6 +1,6 @@
+#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
 #EXTINF:0 tvg-id="C10.193.ersatztv.org" channel-id="fKchRv1KhkqrhvfvZuPLOQ" channel-number="01" CUID="fKchRv1KhkqrhvfvZuPLOQ" tvg-chno="10" tvg-name="abc" tvg-logo="http://192.168.0.75:8409/iptv/logos/BC59095A64233513A6AC4CAA249CDFD1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", abc
 http://192.168.0.120/ts/1_0
-#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
 #EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="02" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/90B85ADD21DF92A907D468345390A6CB.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
 http://192.168.0.75:8409/iptv/channel/1.ts
 #EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="03" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/206633D4941296E18845E1B417E51C0B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
