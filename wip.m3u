@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
 
 #EXTINF:-1 channel-id="fKchRv1KhkqrhvfvZuPLOQ" tvg-id="9009" tvg-chno="9009" tvg-logo="" tvc-guide-stationid="" tvg-name="abc" group-title="HD",abc
-rtsp://192.168.0.120:554/live/1_0
+http://192.168.0.120/ts/1_0
 
 #EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/90B85ADD21DF92A907D468345390A6CB.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
 http://192.168.0.75:8409/iptv/channel/1.ts
