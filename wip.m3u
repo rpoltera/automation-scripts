@@ -1,25 +1,26 @@
 #EXTM3U
 #EXTINF:-1,USA | ABC Medford, OR KDRVⓧ
-http://geo-iptv.com:8880/13691061/70074637/777306
-#EXTINF:-1,USA | NBC Medford, OR KOBIⓧ
-http://geo-iptv.com:8880/13691061/70074637/777487
-#EXTINF:-1,USA | ABC Madison, WI WKOWⓧ
-http://geo-iptv.com:8880/13691061/70074637/777304
-#EXTINF:-1,USA | ABC Manchester, NH WMURⓧ
-http://geo-iptv.com:8880/13691061/70074637/777305
-#EXTINF:-1,USA | ABC Medford, OR KDRVⓧ
-http://geo-iptv.com:8880/13691061/70074637/777306
-#EXTINF:-1,USA | ABC Memphis, TN WATNⓧ
-http://geo-iptv.com:8880/13691061/70074637/777307
-#EXTINF:-1,USA | ABC Miami, FL WPLGⓧ
-http://geo-iptv.com:8880/13691061/70074637/777309
-#EXTINF:-1,USA | ABC Midland, TX KMIDⓧ
-http://geo-iptv.com:8880/13691061/70074637/777310
-#EXTINF:-1,USA | ABC Milwaukee, WI WISNⓧ
-http://geo-iptv.com:8880/13691061/70074637/777311
-#EXTINF:-1,US: ABC (wls) Chicago HD
-http://geo-iptv.com:8880/13691061/70074637/117291
-#EXTINF:-1,US: ABC 7 (detroit) HD
-http://geo-iptv.com:8880/13691061/70074637/117294
-#EXTINF:-1,US: ABC 7 (NEW York) | HD
-http://geo-iptv.com:8880/13691061/70074637/117261
+rtsp://192.168.0.120:554/live/1_0
+#EXTM3U url-tvg="http://192.168.0.75:8409/iptv/xmltv.xml" x-tvg-url="http://192.168.0.75:8409/iptv/xmltv.xml"
+#EXTINF:0 tvg-id="C1.145.ersatztv.org" channel-id="WVLRE1KEoEy6YWzM1mh3Ag" channel-number="1" CUID="WVLRE1KEoEy6YWzM1mh3Ag" tvg-chno="1" tvg-name="Barney Miller" tvg-logo="http://192.168.0.75:8409/iptv/logos/90B85ADD21DF92A907D468345390A6CB.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Barney Miller
+http://192.168.0.75:8409/iptv/channel/1.ts
+#EXTINF:0 tvg-id="C2.146.ersatztv.org" channel-id="S106sjuOa0ucS_0Ubb25Ng" channel-number="2" CUID="S106sjuOa0ucS_0Ubb25Ng" tvg-chno="2" tvg-name="Doc Martin" tvg-logo="http://192.168.0.75:8409/iptv/logos/206633D4941296E18845E1B417E51C0B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Doc Martin
+http://192.168.0.75:8409/iptv/channel/2.ts
+#EXTINF:0 tvg-id="C3.147.ersatztv.org" channel-id="JH_bpnhXJkytOEi4Xg3TRA" channel-number="3" CUID="JH_bpnhXJkytOEi4Xg3TRA" tvg-chno="3" tvg-name="Friends" tvg-logo="http://192.168.0.75:8409/iptv/logos/23E380F598B5C19A55F4B4E72C87F1D8.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Friends
+http://192.168.0.75:8409/iptv/channel/3.ts
+#EXTINF:0 tvg-id="C4.148.ersatztv.org" channel-id="nY2caQfVmU2V9Fe1Vdkwlg" channel-number="4" CUID="nY2caQfVmU2V9Fe1Vdkwlg" tvg-chno="4" tvg-name="Adam-12" tvg-logo="http://192.168.0.75:8409/iptv/logos/D27745C7C5E8A5955278802D15401C0A.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Adam-12
+http://192.168.0.75:8409/iptv/channel/4.ts
+#EXTINF:0 tvg-id="C5.149.ersatztv.org" channel-id="pAEsWzE01EOdPwJIxispZg" channel-number="5" CUID="pAEsWzE01EOdPwJIxispZg" tvg-chno="5" tvg-name="Frasier" tvg-logo="http://192.168.0.75:8409/iptv/logos/7792F51F223188BD88DFCC2FEBD8027E.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Frasier
+http://192.168.0.75:8409/iptv/channel/5.ts
+#EXTINF:0 tvg-id="C6.150.ersatztv.org" channel-id="8NIzruEeuEm1Zp5DRgnd4g" channel-number="6" CUID="8NIzruEeuEm1Zp5DRgnd4g" tvg-chno="6" tvg-name="HGTV" tvg-logo="http://192.168.0.75:8409/iptv/logos/DED0BE6AAFE9E892184D6C4BE4CCC134.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", HGTV
+http://192.168.0.75:8409/iptv/channel/6.ts
+#EXTINF:0 tvg-id="C7.151.ersatztv.org" channel-id="eNDq3F3QzkiwXShRaIkL5Q" channel-number="7" CUID="eNDq3F3QzkiwXShRaIkL5Q" tvg-chno="7" tvg-name="Nick at Nite" tvg-logo="http://192.168.0.75:8409/iptv/logos/8BFD76D2F448D03DD4A6174E48A7CE5F.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Nick at Nite
+http://192.168.0.75:8409/iptv/channel/7.ts
+#EXTINF:0 tvg-id="C8.152.ersatztv.org" channel-id="PHve-9K1XkSLb0_bOlKa7g" channel-number="8" CUID="PHve-9K1XkSLb0_bOlKa7g" tvg-chno="8" tvg-name="Disney" tvg-logo="http://192.168.0.75:8409/iptv/logos/44DD52C5FE8F4ED6BAC127911D41C22B.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Disney
+http://192.168.0.75:8409/iptv/channel/8.ts
+#EXTINF:0 tvg-id="C9.153.ersatztv.org" channel-id="xxRp5QNKjkOiKM2mG7P9Mw" channel-number="9" CUID="xxRp5QNKjkOiKM2mG7P9Mw" tvg-chno="9" tvg-name="Dinosurs" tvg-logo="http://192.168.0.75:8409/iptv/logos/AD8AC3DD762DB63787F7099F842CF2A1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", Dinosurs
+http://192.168.0.75:8409/iptv/channel/9.ts
+#EXTINF:0 tvg-id="C10.193.ersatztv.org" channel-id="fKchRv1KhkqrhvfvZuPLOQ" channel-number="10" CUID="fKchRv1KhkqrhvfvZuPLOQ" tvg-chno="10" tvg-name="abc" tvg-logo="http://192.168.0.75:8409/iptv/logos/BC59095A64233513A6AC4CAA249CDFD1.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", abc
+http://192.168.0.75:8409/iptv/channel/10.ts
+#EXTINF:0 tvg-id="C11.194.ersatztv.org" channel-id="nsOgjgzvJESWIURdnoiyaA" channel-number="11" CUID="nsOgjgzvJESWIURdnoiyaA" tvg-chno="11" tvg-name="NBC" tvg-logo="http://192.168.0.75:8409/iptv/logos/819CD1B22723056FF42C620F2A772E75.jpg" group-title="ErsatzTV" tvc-stream-vcodec="h264" tvc-stream-acodec="aac", NBC
+http://192.168.0.75:8409/iptv/channel/11.ts
