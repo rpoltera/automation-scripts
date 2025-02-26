@@ -26,6 +26,9 @@ variables
 color
 catch_errors
 
+# Define STD variable for suppressing command output
+STD=""
+
 function update_script() {
   header_info
   check_container_storage
@@ -76,31 +79,37 @@ EOF
 
 # Restart the container to apply changes
 msg_info "Restarting container to apply GPU passthrough configuration..."
-$STD pct restart $CTID
+pct restart $CTID
+
+# Set up NVIDIA repositories (if needed)
+msg_info "Setting up NVIDIA repositories..."
+pct exec $CTID -- bash -c "curl -fsSL https://nvidia.github.io/nvidia-docker/gpgkey | gpg --dearmor -o /usr/share/keyrings/nvidia-docker.gpg"
+pct exec $CTID -- bash -c "echo 'deb [signed-by=/usr/share/keyrings/nvidia-docker.gpg] https://nvidia.github.io/libnvidia-container/stable/deb12/$(dpkg --print-architecture) /' > /etc/apt/sources.list.d/nvidia-docker.list"
+pct exec $CTID -- bash -c "echo 'deb [signed-by=/usr/share/keyrings/nvidia-docker.gpg] https://nvidia.github.io/nvidia-container-runtime/stable/deb12/$(dpkg --print-architecture) /' >> /etc/apt/sources.list.d/nvidia-docker.list"
 
 # Install NVIDIA Driver in the LXC container
 msg_info "Installing NVIDIA Driver in the container..."
-$STD pct exec $CTID -- bash -c "apt update && apt install -y curl build-essential"
-$STD pct exec $CTID -- bash -c "curl -O $GPU_DRIVER_URL"
-$STD pct exec $CTID -- bash -c "chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run"
-$STD pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --silent"
+pct exec $CTID -- bash -c "apt update && apt install -y curl build-essential"
+pct exec $CTID -- bash -c "curl -O $GPU_DRIVER_URL"
+pct exec $CTID -- bash -c "chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run"
+pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --silent"
 
 # Verify NVIDIA Driver installation
 msg_info "Verifying NVIDIA Driver installation..."
-$STD pct exec $CTID -- nvidia-smi
+pct exec $CTID -- nvidia-smi
 
 # Install Ollama in the LXC container
 msg_info "Installing Ollama..."
-$STD pct exec $CTID -- bash -c "curl -fsSL https://ollama.ai/install.sh | sh"
+pct exec $CTID -- bash -c "curl -fsSL https://ollama.ai/install.sh | sh"
 
 # Start Ollama service
 msg_info "Starting Ollama service..."
-$STD pct exec $CTID -- systemctl enable ollama
-$STD pct exec $CTID -- systemctl start ollama
+pct exec $CTID -- systemctl enable ollama
+pct exec $CTID -- systemctl start ollama
 
 description
 
 msg_ok "Completed Successfully!\n"
 echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
 echo -e "${INFO}${YW} Access it using the following command:${CL}"
-echo -e "${TAB}${GATEWAY}${BGN}pct enter $CTID${CL}"
+echo -e "${TAB}${GATEWAY}${BGN}p
