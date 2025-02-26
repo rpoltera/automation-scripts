@@ -84,6 +84,19 @@ cat <<EOF >> /etc/pve/lxc/$CTID.conf
 net0: name=eth0,bridge=vmbr0,ip=dhcp
 EOF
 
+# Verify container exists
+msg_info "Verifying container $CTID..."
+if ! pct list | grep -q "$CTID"; then
+  msg_error "Container $CTID does not exist!"
+  exit 1
+fi
+
+# Start the container if it's not running
+if pct status $CTID | grep -q "stopped"; then
+  msg_info "Starting container $CTID..."
+  pct start $CTID
+fi
+
 # Restart the container to apply changes
 msg_info "Restarting container to apply GPU passthrough and network configuration..."
 pct restart $CTID
