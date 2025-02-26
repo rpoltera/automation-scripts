@@ -101,10 +101,6 @@ fi
 msg_info "Waiting for container $CTID to initialize..."
 sleep 10
 
-# Restart the container to apply changes
-msg_info "Restarting container to apply GPU passthrough and network configuration..."
-pct restart $CTID
-
 # Install NVIDIA Driver in the LXC container
 msg_info "Installing NVIDIA Driver in the container..."
 pct exec $CTID -- bash -c "apt update && apt install -y wget gpg curl build-essential"
@@ -146,6 +142,10 @@ pct exec $CTID -- bash -c "cd /opt/open-webui/backend && pip install -r requirem
 # Start Open WebUI service
 msg_info "Starting Open WebUI service..."
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm start &"
+
+# Restart the container to apply all changes
+msg_info "Restarting container to apply all configurations..."
+pct restart $CTID
 
 description
 
