@@ -131,9 +131,15 @@ msg_info "Starting Ollama service..."
 pct exec $CTID -- systemctl enable ollama
 pct exec $CTID -- systemctl start ollama
 
+# Install Node.js and npm
+msg_info "Installing Node.js and npm..."
+pct exec $CTID -- bash -c "curl -fsSL https://deb.nodesource.com/setup_20.x | bash -"
+pct exec $CTID -- bash -c "apt install -y nodejs"
+pct exec $CTID -- bash -c "npm install -g npm@latest"
+
 # Install Open WebUI
 msg_info "Installing Open WebUI..."
-pct exec $CTID -- bash -c "apt install -y git python3-pip npm"
+pct exec $CTID -- bash -c "apt install -y git python3-pip"
 pct exec $CTID -- bash -c "git clone https://github.com/open-webui/open-webui.git /opt/open-webui"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm install"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm run build"
