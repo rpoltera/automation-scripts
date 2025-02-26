@@ -4,7 +4,7 @@
 source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
 
 # Copyright (c) 2021-2025 tteck
-# Author: tteck (tteckster)
+# Author: poltera 
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Adapted for Ollama with NVIDIA GPU Passthrough
 
