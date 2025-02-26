@@ -153,10 +153,6 @@ pct exec $CTID -- bash -c "cd /opt/open-webui/backend && source venv/bin/activat
 msg_info "Starting Open WebUI service..."
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm start &"
 
-# Restart the container to apply all changes
-msg_info "Restarting container to apply all configurations..."
-pct restart $CTID
-
 description
 
 msg_ok "Completed Successfully!\n"
