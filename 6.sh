@@ -97,6 +97,10 @@ if pct status $CTID | grep -q "stopped"; then
   pct start $CTID
 fi
 
+# Wait for the container to initialize
+msg_info "Waiting for container $CTID to initialize..."
+sleep 10
+
 # Restart the container to apply changes
 msg_info "Restarting container to apply GPU passthrough and network configuration..."
 pct restart $CTID
