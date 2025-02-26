@@ -105,6 +105,21 @@ fi
 msg_info "Waiting for container $CTID to initialize..."
 sleep 10
 
+# Install Docker in the LXC container
+msg_info "Installing Docker..."
+pct exec $CTID -- bash -c "apt update"
+pct exec $CTID -- bash -c "apt install -y ca-certificates curl gnupg"
+pct exec $CTID -- bash -c "install -m 0755 -d /etc/apt/keyrings"
+pct exec $CTID -- bash -c "curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg"
+pct exec $CTID -- bash -c "chmod a+r /etc/apt/keyrings/docker.gpg"
+pct exec $CTID -- bash -c "echo \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bookworm stable\" | tee /etc/apt/sources.list.d/docker.list > /dev/null"
+pct exec $CTID -- bash -c "apt update"
+pct exec $CTID -- bash -c "apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin"
+
+# Verify Docker installation
+msg_info "Verifying Docker installation..."
+pct exec $CTID -- docker --version
+
 # Install NVIDIA Driver in the LXC container
 msg_info "Installing NVIDIA Driver in the container..."
 pct exec $CTID -- bash -c "apt update && apt install -y wget gpg curl build-essential"
