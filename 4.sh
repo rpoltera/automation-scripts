@@ -4,12 +4,12 @@
 source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
 
 # Copyright (c) 2021-2025 tteck
-# Author: tteck (tteckster)
+# Author: havardthom
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
-# Adapted for Ollama with NVIDIA GPU Passthrough
+# Adapted for Ollama with NVIDIA GPU Passthrough and Open WebUI
 
-APP="Ollama"
-var_tags="ai,gpu"
+APP="Ollama with Open WebUI"
+var_tags="ai,gpu,interface"
 var_cpu="50"              # Number of CPU cores
 var_ram="75048"           # Memory in MB (75GB)
 var_disk="100"            # Storage in GB (100GB)
@@ -50,7 +50,7 @@ function update_script() {
   fi
   if [ "$UPD" == "2" ]; then
     msg_info "Reinstalling NVIDIA Driver"
-    $STD curl -O $GPU_DRIVER_URL
+    $STD wget $GPU_DRIVER_URL -O NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run
     $STD chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run
     $STD ./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --no-kernel-modules --silent
     msg_ok "Reinstalled NVIDIA Driver"
@@ -90,8 +90,8 @@ pct restart $CTID
 
 # Install NVIDIA Driver in the LXC container
 msg_info "Installing NVIDIA Driver in the container..."
-pct exec $CTID -- bash -c "apt update && apt install -y gpg curl build-essential"
-pct exec $CTID -- bash -c "curl -O $GPU_DRIVER_URL"
+pct exec $CTID -- bash -c "apt update && apt install -y wget gpg curl build-essential"
+pct exec $CTID -- bash -c "wget $GPU_DRIVER_URL -O NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run"
 pct exec $CTID -- bash -c "chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run"
 pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --no-kernel-modules --silent"
 
@@ -118,9 +118,21 @@ msg_info "Starting Ollama service..."
 pct exec $CTID -- systemctl enable ollama
 pct exec $CTID -- systemctl start ollama
 
+# Install Open WebUI
+msg_info "Installing Open WebUI..."
+pct exec $CTID -- bash -c "apt install -y git python3-pip npm"
+pct exec $CTID -- bash -c "git clone https://github.com/open-webui/open-webui.git /opt/open-webui"
+pct exec $CTID -- bash -c "cd /opt/open-webui && npm install"
+pct exec $CTID -- bash -c "cd /opt/open-webui && npm run build"
+pct exec $CTID -- bash -c "cd /opt/open-webui/backend && pip install -r requirements.txt"
+
+# Start Open WebUI service
+msg_info "Starting Open WebUI service..."
+pct exec $CTID -- bash -c "cd /opt/open-webui && npm start &"
+
 description
 
 msg_ok "Completed Successfully!\n"
 echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
-echo -e "${INFO}${YW} Access it using the following command:${CL}"
-echo -e "${TAB}${GATEWAY}${BGN}pct enter $CTID${CL}"
+echo -e "${INFO}${YW} Access it using the following URL:${CL}"
+echo -e "${TAB}${GATEWAY}${BGN}http://${IP}:8080${CL}"
