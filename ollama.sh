@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Variables
-CTID=100                  # LXC Container ID
 HOSTNAME="ollama-lxc"     # Hostname for the container
 PASSWORD="securepassword" # Root password for the container
 CORES=50                  # Number of CPU cores
@@ -9,6 +8,20 @@ MEMORY=75000              # Memory in MB (75GB)
 STORAGE="100"             # Storage in GB (100GB)
 GPU_DRIVER_VERSION="570.86.15" # NVIDIA Driver version
 GPU_DRIVER_URL="https://us.download.nvidia.com/tesla/570.86.15/NVIDIA-Linux-x86_64-570.86.15.run"
+
+# Function to find the next available LXC ID
+find_next_ctid() {
+  local last_ctid=$(pct list | awk 'NR>1 {print $1}' | sort -n | tail -1)
+  if [ -z "$last_ctid" ]; then
+    echo 100
+  else
+    echo $((last_ctid + 1))
+  fi
+}
+
+# Get the next available CTID
+CTID=$(find_next_ctid)
+echo "Next available CTID: $CTID"
 
 # Create the LXC container
 echo "Creating LXC container..."
