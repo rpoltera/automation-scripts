@@ -26,6 +26,10 @@ variables
 color
 catch_errors
 
+# Prompt for a password
+read -s -p "Enter a password for the root user: " PASSWORD
+echo
+
 # Define STD variable for suppressing command output
 STD=""
 
