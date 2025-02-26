@@ -139,11 +139,15 @@ pct exec $CTID -- bash -c "npm install -g npm@latest"
 
 # Install Open WebUI
 msg_info "Installing Open WebUI..."
-pct exec $CTID -- bash -c "apt install -y git python3-pip"
+pct exec $CTID -- bash -c "apt install -y git python3-pip python3-venv"
 pct exec $CTID -- bash -c "git clone https://github.com/open-webui/open-webui.git /opt/open-webui"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm install"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm run build"
-pct exec $CTID -- bash -c "cd /opt/open-webui/backend && pip install -r requirements.txt"
+
+# Create and activate a Python virtual environment
+msg_info "Setting up Python virtual environment..."
+pct exec $CTID -- bash -c "cd /opt/open-webui/backend && python3 -m venv venv"
+pct exec $CTID -- bash -c "cd /opt/open-webui/backend && source venv/bin/activate && pip install -r requirements.txt"
 
 # Start Open WebUI service
 msg_info "Starting Open WebUI service..."
