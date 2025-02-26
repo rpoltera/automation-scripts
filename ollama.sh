@@ -13,7 +13,7 @@ GPU_DRIVER_URL="https://us.download.nvidia.com/tesla/570.86.15/NVIDIA-Linux-x86_
 find_next_ctid() {
   local last_ctid=$(pct list | awk 'NR>1 {print $1}' | sort -n | tail -1)
   if [ -z "$last_ctid" ]; then
-    echo 100
+    echo 118
   else
     echo $((last_ctid + 1))
   fi
