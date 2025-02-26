@@ -4,7 +4,7 @@
 source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
 
 # Copyright (c) 2021-2025 tteck
-# Author: poltera 
+# Author: tteck (tteckster)
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Adapted for Ollama with NVIDIA GPU Passthrough
 
@@ -52,7 +52,7 @@ function update_script() {
     msg_info "Reinstalling NVIDIA Driver"
     $STD curl -O $GPU_DRIVER_URL
     $STD chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run
-    $STD ./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --silent
+    $STD ./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --no-kernel-modules --silent
     msg_ok "Reinstalled NVIDIA Driver"
     exit
   fi
@@ -77,30 +77,41 @@ lxc.mount.entry: /dev/nvidia-caps/nvidia-cap1 dev/nvidia-caps/nvidia-cap1 none b
 lxc.mount.entry: /dev/nvidia-caps/nvidia-cap2 dev/nvidia-caps/nvidia-cap2 none bind,optional,create=file
 EOF
 
-# Restart the container to apply changes
-msg_info "Restarting container to apply GPU passthrough configuration..."
-pct restart $CTID
+# Configure network settings
+msg_info "Configuring network settings..."
+cat <<EOF >> /etc/pve/lxc/$CTID.conf
+# Network settings
+net0: name=eth0,bridge=vmbr0,ip=dhcp
+EOF
 
-# Set up NVIDIA repositories (if needed)
-msg_info "Setting up NVIDIA repositories..."
-pct exec $CTID -- bash -c "curl -fsSL https://nvidia.github.io/nvidia-docker/gpgkey | gpg --dearmor -o /usr/share/keyrings/nvidia-docker.gpg"
-pct exec $CTID -- bash -c "echo 'deb [signed-by=/usr/share/keyrings/nvidia-docker.gpg] https://nvidia.github.io/libnvidia-container/stable/deb12/$(dpkg --print-architecture) /' > /etc/apt/sources.list.d/nvidia-docker.list"
-pct exec $CTID -- bash -c "echo 'deb [signed-by=/usr/share/keyrings/nvidia-docker.gpg] https://nvidia.github.io/nvidia-container-runtime/stable/deb12/$(dpkg --print-architecture) /' >> /etc/apt/sources.list.d/nvidia-docker.list"
+# Restart the container to apply changes
+msg_info "Restarting container to apply GPU passthrough and network configuration..."
+pct restart $CTID
 
 # Install NVIDIA Driver in the LXC container
 msg_info "Installing NVIDIA Driver in the container..."
-pct exec $CTID -- bash -c "apt update && apt install -y curl build-essential"
+pct exec $CTID -- bash -c "apt update && apt install -y gpg curl build-essential"
 pct exec $CTID -- bash -c "curl -O $GPU_DRIVER_URL"
 pct exec $CTID -- bash -c "chmod +x NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run"
-pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --silent"
+pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --no-kernel-modules --silent"
 
 # Verify NVIDIA Driver installation
 msg_info "Verifying NVIDIA Driver installation..."
 pct exec $CTID -- nvidia-smi
 
+# Set up NVIDIA Container Toolkit
+msg_info "Setting up NVIDIA Container Toolkit..."
+pct exec $CTID -- bash -c "curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg"
+pct exec $CTID -- bash -c "curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | tee /etc/apt/sources.list.d/nvidia-container-toolkit.list"
+pct exec $CTID -- bash -c "apt update && apt install -y nvidia-container-toolkit"
+
 # Install Ollama in the LXC container
 msg_info "Installing Ollama..."
 pct exec $CTID -- bash -c "curl -fsSL https://ollama.ai/install.sh | sh"
+
+# Create Ollama data directory
+msg_info "Creating Ollama data directory..."
+pct exec $CTID -- bash -c "mkdir -p ~/container-data/ollama-webui"
 
 # Start Ollama service
 msg_info "Starting Ollama service..."
@@ -112,4 +123,4 @@ description
 msg_ok "Completed Successfully!\n"
 echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
 echo -e "${INFO}${YW} Access it using the following command:${CL}"
-echo -e "${TAB}${GATEWAY}${BGN}p
+echo -e "${TAB}${GATEWAY}${BGN}pct enter $CTID${CL}"
