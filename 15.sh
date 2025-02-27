@@ -4,13 +4,13 @@
 source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
 
 # Copyright (c) 2021-2025 tteck
-# Author: poltera
+# Author: havardthom
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Source: https://openwebui.com/
 
 APP="Open WebUI with NVIDIA GPU Passthrough"
 var_tags="ai;interface;gpu"
-var_cpu="10"               # Number of CPU cores
+var_cpu="4"               # Number of CPU cores
 var_ram="8192"            # Memory in MB (8GB)
 var_disk="50"             # Storage in GB (50GB)
 var_os="debian"           # OS template
@@ -86,9 +86,19 @@ pct exec $CTID -- bash -c "./NVIDIA-Linux-x86_64-$GPU_DRIVER_VERSION.run --no-ke
 msg_info "Verifying NVIDIA Driver installation..."
 pct exec $CTID -- nvidia-smi
 
+# Install Node.js >= 20.x
+msg_info "Installing Node.js >= 20.x..."
+pct exec $CTID -- bash -c "curl -fsSL https://deb.nodesource.com/setup_20.x | bash -"
+pct exec $CTID -- bash -c "apt install -y nodejs"
+
+# Verify Node.js installation
+msg_info "Verifying Node.js installation..."
+pct exec $CTID -- node --version
+pct exec $CTID -- npm --version
+
 # Install Open WebUI
 msg_info "Installing Open WebUI..."
-pct exec $CTID -- bash -c "apt update && apt install -y git python3-pip python3-venv nodejs npm"
+pct exec $CTID -- bash -c "apt update && apt install -y git python3-pip python3-venv"
 pct exec $CTID -- bash -c "git clone https://github.com/open-webui/open-webui.git /opt/open-webui"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm install"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm run build"
