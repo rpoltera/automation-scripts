@@ -10,9 +10,9 @@ source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/m
 
 APP="Open WebUI with NVIDIA GPU Passthrough"
 var_tags="ai;interface;gpu"
-var_cpu="4"               # Number of CPU cores
-var_ram="8192"            # Memory in MB (8GB)
-var_disk="50"             # Storage in GB (50GB)
+var_cpu="20"              # Number of CPU cores
+var_ram="102400"          # Memory in MB (100GB)
+var_disk="100"            # Storage in GB (100GB)
 var_os="debian"           # OS template
 var_version="12"          # Debian 12
 var_unprivileged="0"      # Unprivileged container (0 for GPU passthrough)
@@ -101,7 +101,13 @@ msg_info "Installing Open WebUI..."
 pct exec $CTID -- bash -c "apt update && apt install -y git python3-pip python3-venv"
 pct exec $CTID -- bash -c "git clone https://github.com/open-webui/open-webui.git /opt/open-webui"
 pct exec $CTID -- bash -c "cd /opt/open-webui && npm install"
-pct exec $CTID -- bash -c "cd /opt/open-webui && npm run build"
+
+# Increase Node.js memory limit for the build step
+msg_info "Building Open WebUI with increased memory limit..."
+pct exec $CTID -- bash -c "export NODE_OPTIONS=--max-old-space-size=8192 && cd /opt/open-webui && npm run build"
+
+# Set up Python virtual environment
+msg_info "Setting up Python virtual environment..."
 pct exec $CTID -- bash -c "cd /opt/open-webui/backend && python3 -m venv venv"
 pct exec $CTID -- bash -c "cd /opt/open-webui/backend && source venv/bin/activate && pip install -r requirements.txt"
 
